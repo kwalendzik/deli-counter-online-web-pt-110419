@@ -4,7 +4,7 @@ def line(array)
 #name = array.fetch
 
   if array.length > 0
-    array.map
+    array.map.with_index
     #"The line is currently: 1. Logan 2. Avi 3. Spencer"
   else
     puts "The line is currently empty."
