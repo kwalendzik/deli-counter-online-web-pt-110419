@@ -7,7 +7,7 @@ def line(array)
     array.each_with_index do |n, i| 
       positions << "#{i+1}. #{n}"
   end
-  puts "The line is currently: #{positions}"}
+  puts "The line is currently: #{positions}"
 end
 
 def take_a_number(array, string)
