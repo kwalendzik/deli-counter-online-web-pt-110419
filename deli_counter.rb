@@ -1,10 +1,11 @@
 def line(array)
   
-number = array.index + 1
-name = array.fetch
+#number = array.index + 1
+#name = array.fetch
 
   if array.length > 0
-    puts array.index +1
+    array.map
+    #"The line is currently: 1. Logan 2. Avi 3. Spencer"
   else
     puts "The line is currently empty."
   end
