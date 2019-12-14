@@ -11,7 +11,8 @@ def line(array)
 end 
 
 def take_a_number(array, name)
-  array.each_with_index do |n, i| 
+  array << name
+  array.each_with_index do |name, i| 
   puts "Welcome, #{n}. You are number #{i+1} in line."
   end
 end
