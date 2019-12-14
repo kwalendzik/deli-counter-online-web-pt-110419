@@ -4,7 +4,7 @@ def line(array)
 #name = array.fetch
 
   if array.length > 0
-    array.map.with_index{|idx, name| "The line is currently: #{idx +1}. #{name}}
+    array.each_with_index.map{|idx, name| "The line is currently: #{idx +1}. #{name}}
   else
     puts "The line is currently empty."
   end
