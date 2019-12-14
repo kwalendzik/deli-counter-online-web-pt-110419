@@ -1,7 +1,8 @@
 def line(array)
   
 number = array.index + 1
-name = array.
+name = array.fetch
+
   if array.length > 0
     puts array.index +1
   else
