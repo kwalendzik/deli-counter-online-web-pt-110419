@@ -1,9 +1,8 @@
 def line(array)
-  positions = "The line is currently:"
-  
   if array.length == 0
     puts "The line is currently empty."
   else 
+    positions = "The line is currently:"
     array.each_with_index do |n, i| 
       positions << "#{i+1}. #{n}"
   end
