@@ -12,7 +12,7 @@ end
 
 def take_a_number(array, name)
   array.each_with_index do |n, i| 
-  puts "Welcome, #{n}. You are number #{i} in line."
+  puts "Welcome, #{n}. You are number #{i+1} in line."
   end
 end
 
