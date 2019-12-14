@@ -1,4 +1,7 @@
 def line(array)
+  
+number = array.index + 1
+name = array.
   if array.length > 0
     puts array.index +1
   else
