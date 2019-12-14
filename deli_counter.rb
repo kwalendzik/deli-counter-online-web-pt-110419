@@ -10,7 +10,10 @@ def line(array)
   end
 end 
 
-def take_a_number(array, string)
+def take_a_number(array, name)
+  array.each_with_index do |n, i| 
+  puts "Welcome, #{n}. You are number #{i} in line."
+  end
 end
 
 def now_serving
