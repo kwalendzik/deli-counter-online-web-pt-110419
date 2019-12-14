@@ -8,11 +8,10 @@ def line(array)
   end
   puts positions
 end
+end 
 
 def take_a_number(array, string)
-  
 end
 
 def now_serving
-  
 end
