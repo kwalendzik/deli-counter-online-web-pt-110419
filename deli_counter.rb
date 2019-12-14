@@ -6,8 +6,8 @@ def line(array)
   else 
     array.each_with_index do |n, i| 
       positions << "#{i+1}. #{n}"
-      puts "The line is currently: #{positions}"}
   end
+  puts "The line is currently: #{positions}"}
 end
 
 def take_a_number(array, string)
