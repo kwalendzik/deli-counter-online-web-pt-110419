@@ -3,6 +3,7 @@ def line(array)
     puts array.index +1
   else
     put "The line is currently empty."
+  end
 end
 
 def take_a_number(array, string)
