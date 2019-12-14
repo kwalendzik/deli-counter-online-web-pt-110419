@@ -4,7 +4,7 @@ def line(array)
   else 
     positions = "The line is currently: "
     array.each_with_index do |n, i| 
-      positions << "#{i+1}. #{n} "
+      positions << "#{i+1}. #{n}".join(" ")
   end
   puts positions
   end
