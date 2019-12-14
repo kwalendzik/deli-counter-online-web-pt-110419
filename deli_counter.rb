@@ -5,9 +5,8 @@ def line(array)
     puts "The line is currently empty."
   else 
     array.each_with_index do |n, i| 
-      positions << {
-      
-      puts "The line is currently: #{i+1}. #{n}"}
+      positions << "#{i+1}. #{n}"
+      puts "The line is currently: #{positions}"}
   end
 end
 
