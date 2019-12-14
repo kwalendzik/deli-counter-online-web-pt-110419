@@ -1,10 +1,7 @@
 def line(array)
-  
-#number = array.index + 1
-#name = array.fetch
 
   if array.length > 0
-    array.each_with_index.map {|n, i| puts "The line is currently: #{i+1}. #{n}"}
+    array.each_with_index {|n, i| puts "The line is currently: #{i+1}. #{n}"}
   else
     puts "The line is currently empty."
   end
