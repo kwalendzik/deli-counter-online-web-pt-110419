@@ -18,4 +18,7 @@ end
 def now_serving(array)
   if array.length > 0
     puts 
+    array.shift
+  else
+    puts "Ther"
 end
